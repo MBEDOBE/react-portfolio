@@ -1,9 +1,8 @@
 {
   "name": "personal",
   "version": "1.0.0",
-  "private": false,
-  "main": "index.js",
-  "homepage": "https://mbedobe.github.io/react-portfolio",
+  "private": true,
+  "homepage": "https://mbedobe.github.io/react-portfolio/",
   "dependencies": {
     "ityped": "^1.0.3",
     "react": "^17.0.2",
