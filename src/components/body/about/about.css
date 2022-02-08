@@ -1,0 +1,102 @@
+.about {
+  padding: 48px;
+}
+.about-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profImage {
+  height: 400px;
+  border: 0.4rem solid crimson;
+  border-radius: 50%;
+}
+h1 {
+  font-size: 60px;
+  margin: 0.625rem 0;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 1.875rem;
+}
+.ityped-text {
+  font-size: inherit;
+  color: crimson;
+}
+.ityped-cursor {
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .about-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profImage {
+    height: 300px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 436px) {
+  .profImage {
+    height: 230px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
