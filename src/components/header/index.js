@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./header.css";
 import Mobile from "./mobile/index";
 import Web from "./web/index";
-import logo from "../../assets/logo.png";
+
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
