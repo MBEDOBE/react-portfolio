@@ -9,7 +9,7 @@ function Header() {
   return (
     <div className="header">
       <div className="logo">
-        <img src={logo} alt="logo" />
+        <span>mbedobe.</span>
       </div>
       <div className="menu">
         <div className="web-menu">
