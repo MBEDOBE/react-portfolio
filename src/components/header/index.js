@@ -8,7 +8,7 @@ function Header() {
   return (
     <div className="header">
       <div className="logo">
-        <img src="/logo.png" alt="logo" />
+        <img src="../../assets/logo.png" alt="logo" />
       </div>
       <div className="menu">
         <div className="web-menu">
