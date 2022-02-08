@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import "./header.css";
 import Mobile from "./mobile/index";
 import Web from "./web/index";
+import logo from "../../assets/logo.png";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="header">
       <div className="logo">
-        <img src="../../assets/logo.png" alt="logo" />
+        <img src={logo} alt="logo" />
       </div>
       <div className="menu">
         <div className="web-menu">
