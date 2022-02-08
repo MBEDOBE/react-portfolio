@@ -25,6 +25,15 @@
   display: flex;
   width: 200px;
 }
+.logo span{
+  transform: scale(-1, 1);
+  color: #007786;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
 @media only screen and (max-width: 720px) {
   .mobile-menu {
     display: flex;
